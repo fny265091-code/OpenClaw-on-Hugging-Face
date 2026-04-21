@@ -1,4 +1,4 @@
-<img width="778" height="344" alt="image" src="https://github.com/user-attachments/assets/b04a9cb6-d7d3-4d72-8296-7ca02272775d" />这是一个专门为 Hugging Face Spaces 设计的部署方案，集成了 OpenClaw 智能网关，并通过 Tailscale 实现动态出口节点（Exit Node）切换，以解决 API 访问配额限制及网络地域问题。
+这是一个专门为 Hugging Face Spaces 设计的部署方案，集成了 OpenClaw 智能网关，并通过 Tailscale 实现动态出口节点（Exit Node）切换，以解决 API 访问配额限制及网络地域问题。
 
 🌟 核心功能
 自动出口节点切换：动态监测指定的 Tailscale 节点（PC、手机、工作机）状态。若首选节点在线，自动切换出口流量，实现 IP 漂移。
